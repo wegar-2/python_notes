@@ -25,7 +25,7 @@ y = 5*X1 + 10*X2 - 3*X3 + et
 X = np.concatenate([X1, X2, X3], axis=1)
 
 # save the data on the linear regression
-df = pd.DataFrame(data=np.concatenate([X, y], axis=1), columns=["X1", "X2", "X3", "X4"])
+df = pd.DataFrame(data=np.concatenate([X, y], axis=1), columns=["X1", "X2", "X3", "y"])
 df.to_csv(
     os.path.join(os.getcwd(), "..", "data", "linear_regression_artificial_data.csv")
 )
