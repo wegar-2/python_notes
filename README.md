@@ -1,10 +1,6 @@
 # python_notes
 Contents:
 
-### *jupyter* notebooks
-
-None so far.
-
 ### Code snippets
 
 1. [Private class members & name mangling](./scripts/2022-09-29_private_class_methods_and_name_mangling.py)
@@ -16,4 +12,13 @@ an artificial dataset
 4. [One-hot encoding of binary feature in *sklearn*](./scripts/2022-10-06_ohe_binary_feature_encoding_with_sklearn.py)
 5. [One-hot encoding of categorical feature using user-defined ordering in *sklearn*](./scripts/2022-10-06_ohe_categorical_feature_one_hot_encoding.py)
 6. [How to use *sklearn*'s functions `cross_validate` and `cross_val_score` do the KFolded cross validation of linear regression](./scripts/2022-10-06_cross_validation_of_linear_regression.py)
+7. [Building & Using simple *sklearn* `pipeline` object](./scripts/2022-10-14_sklearn_pipelines.py)
+8. [Notes on using *sklearn* `GridSearchCV` class for grid search](./scripts/sklearn_GridSearchCV_usecases/)
+    * [Introduction to `GridSearchCV` using `KNeighborsClassifier`](./scripts/sklearn_GridSearchCV_usecases/2022-10-14_intro_grid_search_for_KNeighbors.py)
 
+
+### DataCamp Course Notes
+1. [*Machine Learning for Finance in Python* course notes](./scripts/datacamp_course_machine_learning_for_finance_in_python)
+    * [Creating leads and lags in *pandas*](./scripts/datacamp_course_machine_learning_for_finance_in_python/2022-10-14_lags_and_leads.py)
+    * [Intro to decision trees in *sklearn*](./scripts/datacamp_course_machine_learning_for_finance_in_python/2022-10-14_decision_trees.py)
+    * [Heatmap-style visualisation of correlation matrix](./scripts/datacamp_course_machine_learning_for_finance_in_python/2022-10-14_correlation_matrix_visualisation.py)
